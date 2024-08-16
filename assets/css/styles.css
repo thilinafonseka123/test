@@ -1206,7 +1206,7 @@ a {
 /* Small screens (up to 600px) */
 @media (max-width: 600px) {
   .scrollable-tabs-container {
-    max-width: 98%;
+    max-width: 90%;
     margin: 8px auto;
   }
 
