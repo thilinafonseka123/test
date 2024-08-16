@@ -1203,4 +1203,24 @@ a {
   background: #333;
 }
 
+/* Small screens (up to 600px) */
+@media (max-width: 600px) {
+  .scrollable-tabs-container {
+    max-width: 98%;
+    margin: 8px auto;
+  }
 
+  .scrollable-tabs-container ul {
+    padding: 8px 12px;
+    gap: 12px;
+  }
+
+  .scrollable-tabs-container a {
+    padding: 4px 16px;
+  }
+
+  .scrollable-tabs-container .right-arrow,
+  .scrollable-tabs-container .left-arrow {
+    width: 80px;
+  }
+}
